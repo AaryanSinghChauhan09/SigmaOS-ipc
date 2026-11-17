@@ -3,12 +3,12 @@ name = "SigmaOS-ipc"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "ipc component"
+description = "SigmaOS inter-process communication primitives"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
